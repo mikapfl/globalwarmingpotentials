@@ -83,7 +83,15 @@ npm install globalwarmingpotentials
 
 ## Releasing
 
-Running
+After running
+
+```
+make
+```
+
+to update the Python and JS libraries
+
+running
 ```
 make tag
 ```
@@ -93,4 +101,4 @@ and pushing with
 git push origin main --tags
 ```
 
-will create new releases on PyPI and NPM.
+a new releases on PyPI and NPM will be published.
