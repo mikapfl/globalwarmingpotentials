@@ -4,7 +4,7 @@
   "description": "Global warming potentials of greenhouse gases from various IPCC reports",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write index.js index.ts"
+    "format": "prettier --write index.js index.ts index.d.ts"
   },
   "main": "index.js",
   "type": "module",
