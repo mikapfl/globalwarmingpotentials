@@ -4,7 +4,7 @@ src/globalwarmingpotentials/__init__.py index.ts: scripts/generate_modules.py gl
 	@./venv/bin/python $<
 	@./venv/bin/black src/globalwarmingpotentials/*.py
 
-index.js: index.ts package.json
+index.js: index.ts tsconfig.json package.json
 	@npm install
 	@npm run build
 	@npm run format
